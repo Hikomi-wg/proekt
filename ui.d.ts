@@ -1,0 +1,22 @@
+import type { Recipe } from "./types.js";
+export declare const searchInput: HTMLInputElement;
+export declare const categoryFilter: HTMLSelectElement;
+export declare const favoritesOnly: HTMLInputElement;
+export declare const sortSelect: HTMLSelectElement;
+export declare const quickOnly: HTMLInputElement;
+export declare const resetFiltersBtn: HTMLButtonElement;
+export declare const recipeForm: HTMLFormElement;
+export declare const formSubmitBtn: HTMLButtonElement;
+export declare const recipeList: HTMLDivElement;
+export declare const formMessage: HTMLParagraphElement;
+export declare const resultsCount: HTMLParagraphElement;
+export declare const imageInput: HTMLInputElement;
+export declare const titleInput: HTMLInputElement;
+export declare const categoryInput: HTMLSelectElement;
+export declare const savingsInput: HTMLInputElement;
+export declare const timeInput: HTMLInputElement;
+export declare const ingredientsInput: HTMLTextAreaElement;
+export declare const instructionsInput: HTMLTextAreaElement;
+export declare function updateCategoryFilterOptions(counts: Record<string, number>): void;
+export declare function renderRecipes(recipes: Recipe[]): void;
+//# sourceMappingURL=ui.d.ts.map
